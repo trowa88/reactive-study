@@ -66,10 +66,10 @@ public class PubSub {
             @Override
             public void onComplete() {
                 System.out.println("onComplete");
+                es.shutdown();
             }
         };
 
         p.subscribe(s);
-        es.shutdown();
     }
 }
