@@ -1,6 +1,5 @@
-package com.colin.reactive.observer;
+package com.colin.reactive.example;
 
-import java.util.Iterator;
 import java.util.Observable;
 import java.util.Observer;
 import java.util.concurrent.ExecutorService;
